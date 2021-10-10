@@ -1,0 +1,588 @@
+/*
+	Theme Name: National Cab - Taxi Company HTML5 Template
+	Author: EraThemes
+	Author URL: http://themeforest.net/user/erathemes
+	Created: 01 Oct 2015
+	Updated: 12 Oct 2015 
+	Version: 1.0
+*/
+
+/*
+	[Table of contents]
+
+	## Global
+		- Font Settings
+		- Padding/Margin
+
+	## Header
+		- Top Header
+			-- Social
+			-- Top Menu
+			-- Logo block
+		- Navigation Menu
+		- Social Icons
+
+	## Footer
+		- Copyright Text	
+		
+	## Responsive
+		-- min-width: 992 to max-width: 1200
+		-- min-width: 768 to max-width: 991
+		-- min-width: 319 to max-width: 767
+		-- min-width: 991
+*/
+
+/* ## Global */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #000;
+	overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+	height: auto;
+}
+a {
+    outline: 0 !important;
+}
+
+/* - Font Settings */
+.logo-block a b,
+.ow-navigation .container > a,
+.footer-main .widget-title,
+.widget-about li ,
+a.see-more ,
+a.purchase ,
+.section-header h3 ,
+.choose-us-content-box h3,
+.booking-details-form .btn,
+.we-do-more h3,
+.we-do-more h2,
+.what-we-do-box span,
+.what-we-do-content > a,
+.what-we-do-content .more-service a,
+.driver-info > h3,
+.we-are-hire span,
+.testimonial .carousel-inner p,
+.testimonial .carousel-inner p span,
+.get-mobile h3,
+.get-mobile h2,
+.statistics-box > span,
+.blog-content .entry-title,
+.book-taxi-form > h3,
+.about > h3,
+.about > h2,
+.service-box > h3,
+.service-box > h2,
+.service-box.book-now a,
+.page-heading > h3,
+.blog-area h3 ,
+.widget-title h3,
+.online-booking-form .btn,
+.contact-form form .btn,
+.map .content h3,
+.media-heading h3 {
+	font-family: 'Cabin', sans-serif;
+}
+
+.subscribe-box h4,
+.subscribe-box .input-group-btn > .btn,
+.widget-about li:last-child span {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+	font-family: 'Lato', sans-serif;
+}
+
+.photos-slider .carousel-caption h2,
+a.purchase,
+a.see-more,
+.section-header h3 ,
+.choose-us-content-box h3,
+.choose-us-content-box a,
+.booking-details-form .btn,
+.we-do-more h3,
+.we-do-more h2,
+.what-we-do-box span,
+.what-we-do-content > a,
+.what-we-do-content .more-service a ,
+.we-are-hire span,
+.get-mobile h3,
+.get-mobile h2,
+.blog-content .entry-title,
+.entry-content > a ,
+.photos-slider2 .slider-content h2,
+.photos-slider2-content  h3,
+.book-taxi-form  .btn,
+.about > h3 ,
+.about > h2,
+.about a,
+.more-than-you > h3,
+.service-box > h3,
+.service-box > h2,
+.service-box.content span,
+.service-box.content > a,
+.service-box.book-now a,
+.page-heading > h3,
+.blog-area h3,
+.widget-title h3 ,
+.recent-post-box h3,
+.recent-title a,
+.map .content h3 {
+	text-transform: uppercase;
+}
+
+/* - Padding/Margin */
+.no-padding {
+	padding: 0;
+}
+.no-left-padding,
+ul {
+	padding-left: 0;
+}
+.no-right-padding {
+	padding-right: 0;
+}
+.no-top-padding {
+	padding-top: 0;
+}
+.no-bottom-padding {
+	padding-bottom: 0;
+}
+.no-margin {
+	margin: 0;
+}
+.no-left-margin {
+	margin-left: 0;
+}
+.no-right-margin {
+	margin-right: 0;
+}
+.no-top-margin {
+	padding-top: 0;
+}
+.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+/* - Section Header */
+.section-header {	
+	position: relative;
+	background: url("./images/icon/seprator.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	display: inline-block;
+	width: 100%;
+}
+
+/* - Section Padding */
+.section-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+	/* ## Header */
+	/* - Top Header */
+	.top-header {
+		background-color: #f5f5f5;
+		padding-bottom: 14px;
+		padding-top: 14px;
+	}
+	/* -- Social */
+	.social li {
+		display: inline-block;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.social li:first-child {
+		margin-left: 0;
+	}
+	.social li:last-child {
+		margin-right: 0;
+	}
+	
+	/* -- Top Menu */
+	.top-header .top-menu {
+		text-align: right;
+	}
+	.top-header .top-menu ul {
+		padding-left: 0;
+	}
+	.top-header .top-menu ul{
+		display: inline-block;
+		list-style: none;
+	}
+	.top-header .top-menu ul li {
+		float: left;
+		padding-left: 22px;
+		padding-right: 22px;
+		position: relative;
+		font-size: 13px;
+	}
+	.top-header .top-menu ul li a {
+		color: #555;		
+		text-transform: capitalize;
+		text-decoration: none;
+	}
+	.top-header .top-menu ul li a:hover {
+		color: #de302f;
+	}
+	.top-header .top-menu ul li:first-child {
+		padding-left: 0;
+	}
+	.top-header .top-menu ul li:last-child {
+		padding-right: 0;
+	}
+	.top-header .top-menu ul li:before {
+		content: "|";
+		position: absolute;
+		left: -1px;
+	}
+	.top-header .top-menu ul li:first-child:before {
+		content: "";	
+	}
+	
+	/* -- Logo block */
+	.middle-header {
+		padding-bottom: 33px;
+		padding-top: 33px;
+		background-color: #fff;
+	}
+	.logo-block {
+		position: relative;
+	}
+	.logo-block a {
+		padding-left: 102px;
+		display: inline-block;
+		text-decoration: none;
+	}
+	.logo-block a img {
+		position: absolute;
+		left: 15px;
+	}
+	.logo-block a b {
+		text-transform: uppercase;
+		font-size: 24px;
+		display: block;
+		color: #000;
+		margin-top: 3px;
+	}
+	.logo-block a span {
+		font-size: 13px;
+		color: #8c8b8b;
+		float: left;
+		margin-top: -6px;
+	}
+	.navbar-brand.logo-block {	
+		display: none;
+	}
+	.middle-header .col-md-6 {
+		text-align: right;
+	}
+	.location,
+	.phone {
+		position: relative;
+		padding-left: 46px;
+		display: inline-block;
+		text-align: left;
+	}
+	.location {
+		margin-right: 32px;
+	}
+	.location > img,
+	.phone > img {
+		position: absolute;
+		left: 0;
+	}
+	.location p {
+		font-size: 16px;
+	}
+	.location p span,
+	.phone p span	{
+		display: block;
+	}
+	.phone {
+		margin-left: 32px;
+	}
+	.phone > img { 
+		top: 7px;
+	}
+	.phone p {
+		font-size: 15px;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+	.phone p span {
+		font-size: 20px;
+		font-weight: 600;
+		color: #de302f;
+	}
+
+/* - Navigation Menu */
+/* - Social Icons */
+
+/* ## Footer */
+.footer-main {
+	background-image: url("images/footer-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 98px;
+}
+.bottom-footer {
+	background-color: #171717;
+	padding: 30px 0;
+}
+.bottom-footer ul {
+	margin-bottom: 0;
+	list-style: none;
+}
+.bottom-footer ul li {
+	float: left;
+	padding: 0 8px;
+	position: relative;
+}
+.bottom-footer ul li:before {
+	content: "|";
+	color: #fff;
+	position: absolute;
+	left: -4px;
+	top: 0;
+}
+.bottom-footer ul li:first-child:before {
+	content: "";
+}
+.bottom-footer ul li a {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 12px;
+}
+.bottom-footer p {
+	margin-bottom: 0;
+	color: #fff;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+/* -- Widget */
+/* -- Widget Subsribe */
+.widget-subscribe .subscribe-box {
+	display: inline-block;
+	padding: 45px 35px;
+	border: 1px solid rgba(209,209,209,0.2);
+	color: #eee;
+}
+.subscribe-box h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.subscribe-box p {
+	font-size: 13px;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.subscribe-box input {
+	border: none;
+	text-transform: uppercase;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	height: auto;
+}
+.subscribe-box input:focus {
+	box-shadow: none;
+}
+.subscribe-box input,
+.subscribe-box .input-group-btn > .btn {
+	border-radius: 0;
+	outline: none;
+}
+.subscribe-box .input-group-btn > .btn {
+	text-transform: uppercase;
+	background-color: #f7b731;
+	border-color: #f7b731;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.widget-subscribe  ul {
+	margin-top: 22px;
+	list-style: none;
+}
+.widget-subscribe  ul li {
+	float: left;
+	margin: 0 10px;
+}
+.widget-subscribe  ul li a {
+	width: 32px;
+	height: 35px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+.widget-subscribe  ul li a img {
+	position: absolute;
+}
+.widget-subscribe  ul li a:hover img {
+	top: -38px;
+}
+
+.footer-main .widget-title {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 0;
+	color: #fff;
+	margin-bottom: 40px;
+	background-image: none;
+}
+
+/* -- Widget Links */
+.footer-main .widget {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 75px;
+}
+.widget-links ul li {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 38px;
+}
+.widget-links ul li:last-child { 
+	margin-bottom: 0;
+}
+.widget-links ul li a {
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+}
+.widget-links ul li a:before {
+	content: "";
+	background-image: url("images/icon/ftr-link.png");
+	background-repeat: no-repeat;
+	width: 7px;
+	height: 10px;
+	display: inline-block;
+	margin-right: 14px;
+}
+
+/* -- Widget About */
+.widget-about {
+	color: #fff;
+	font-size: 14px;
+}
+.widget-about p {
+	margin-bottom: 40px;
+}
+.widget-about li {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	line-height: 19px;
+	padding-left: 55px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.widget-about li span {
+	display: block;
+}
+.widget-about li img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.widget-about li:last-child  {
+	margin-bottom: 0;
+}
+.widget-about li a {
+	color: #fff;
+	font-weight: normal;
+}
+
+/* ## Responsive */
+		
+/* -- min-width: 992 to max-width: 1200 */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* ## Header */	
+	.location, .phone {
+		margin: 0;
+	}
+}
+
+/* -- min-width: 768 to max-width: 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* ## Header */	
+	.location, .phone {
+		margin: 0;
+	}
+}
+
+/* -- min-width: 319 to max-width: 767 */
+@media only screen and (min-width: 319px) and (max-width: 767px) {	
+	/* ## Header */
+	.top-header .social,
+	.top-header .top-menu,
+	.logo-block,
+	.middle-header .col-md-6	{
+		width: 100%;
+		text-align: center;
+	}
+	.top-header .social {
+		margin-bottom: 14px;
+	}
+	.top-header .top-menu {
+		padding: 0;
+	}
+	.top-header .top-menu ul li {
+		font-size: 12px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.logo-block {
+		margin-bottom: 33px;
+	}
+	.logo-block a {
+		max-width: 220px;
+		display: inline-block;
+		position: relative;
+	}
+	.logo-block a img {
+		left: 0;
+	}
+	.location, .phone {
+		margin: 0;
+	}	
+	
+	/* ## Footer */
+	.bottom-footer ul,
+	.bottom-footer p {	
+		width: 100%;
+		text-align: center;
+	}
+	.bottom-footer,
+	.bottom-footer ul,
+	.bottom-footer ul li {
+		float: none;
+		display: inline-block;
+	}
+	.bottom-footer ul {
+		margin-bottom: 10px;
+	}
+}
+
+/* -- min-width: 991 */
+@media (max-width: 991px) {
+	
+}
+
+/* ## min-width: 1200 */
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
